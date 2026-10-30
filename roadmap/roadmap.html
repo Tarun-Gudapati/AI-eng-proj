@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Engineer Roadmap: Oct 2026 to Jan 2027</title>
+<style>
+  @page { size: A4; margin: 14mm 12mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2328;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    margin: 0;
+  }
+  h1 { font-size: 20pt; margin: 0 0 2px; }
+  h2 {
+    font-size: 13pt;
+    margin: 18px 0 8px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #2f6feb;
+  }
+  h3 { font-size: 11pt; margin: 12px 0 4px; }
+  .subtitle { color: #57606a; margin: 0 0 12px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .card {
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 10px 12px;
+    break-inside: avoid;
+  }
+  .card h3 { margin-top: 0; }
+  .done { color: #1a7f37; }
+  .open { color: #9a6700; }
+  ul { margin: 4px 0; padding-left: 18px; }
+  li { margin: 2px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td {
+    border: 1px solid #d0d7de;
+    padding: 5px 6px;
+    vertical-align: top;
+    text-align: left;
+  }
+  th { background: #f6f8fa; font-size: 9.5pt; }
+  td { font-size: 9.5pt; }
+  tr { break-inside: avoid; }
+  .wk { width: 30px; text-align: center; font-weight: 600; }
+  .dates { width: 62px; white-space: nowrap; }
+  .tick { width: 24px; text-align: center; font-size: 13pt; }
+  .checkpoint { background: #fff8c5; }
+  .pill {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 10px;
+    font-size: 8.5pt;
+    font-weight: 600;
+    background: #ddf4ff;
+    color: #0969da;
+  }
+  .rule { border-left: 4px solid #2f6feb; padding: 2px 10px; margin: 6px 0; background: #f6f8fa; }
+  .page-break { break-before: page; }
+  .small { font-size: 9pt; color: #57606a; }
+</style>
+</head>
+<body>
+
+<h1>AI Engineer Roadmap</h1>
+<p class="subtitle">Oct 20, 2026 to Jan 11, 2027 &middot; 12 weeks &middot; 12 hours a week &middot; start applying about Jan 12 &middot; updated Oct 23</p>
+
+<div class="grid">
+  <div class="card">
+    <h3>The goal</h3>
+    <p>Be interview-ready for <b>LLM application engineer</b> roles in India and remote, and start applying about
+    <b>Jan 12</b>. Keep applying through March. Hard limit: start applying by the <b>end of February</b>,
+    even if the project is not perfect.</p>
+  </div>
+  <div class="card">
+    <h3>The weekly split (12 hours)</h3>
+    <table>
+      <tr><th>Track</th><th>Weeks 1 to 6</th><th>Weeks 7 to 12</th></tr>
+      <tr><td><b>AI project</b></td><td>6 h</td><td>6 h</td></tr>
+      <tr><td>DSA in Python</td><td>2.5 h</td><td>2.5 h</td></tr>
+      <tr><td>Design (LLD, then HLD)</td><td>2 h</td><td>3.5 h</td></tr>
+      <tr><td>SQL ladder</td><td>1.5 h</td><td>done</td></tr>
+    </table>
+    <p class="small">Half AI, half fundamentals. The SQL hours move to design once the ladder is done.</p>
+  </div>
+</div>
+
+<h2>Where you are now (Oct 23)</h2>
+<div class="grid">
+  <div class="card">
+    <h3 class="done">Done</h3>
+    <ul>
+      <li>Python exercises, Levels 1 to 4</li>
+      <li><code>analyze.py</code> reads the real CSV: <code>parse_amount</code> works, totals are correct</li>
+      <li>AI term map written (<code>ai_term_map.md</code>)</li>
+      <li>Fundamentals: OOP, SQL, your first ER and class diagrams, the 7-step design method</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 class="open">Still open in week 1</h3>
+    <ul>
+      <li><b>Level 5:</b> the asserts still fail. Four bugs: <code>__init__</code> is empty, <code>=+</code> instead of <code>+=</code>,
+        <code>withdraw</code> doesn't subtract, and <code>__repr__</code> has no brackets.</li>
+      <li><b>Learn the term map:</b> explain each term out loud in one sentence.</li>
+      <li><b>Sat Oct 24:</b> design practice: a cab booking case. Afterwards, write down every question and how you answered it.</li>
+    </ul>
+  </div>
+</div>
+
+<h2>The rules</h2>
+<div class="rule"><b>1. You type every line of practice code.</b> AI explains, gives hints and reviews. Ask for the full answer
+("show me") only after 10 minutes stuck, and then retype it yourself.</div>
+<div class="rule"><b>2. Say it out loud.</b> After each topic, explain it in one minute without notes. If you can't, you haven't learned it yet.</div>
+<div class="rule"><b>3. Every Sunday, review the week.</b> Tick it, and write three lines: what worked, what didn't, what's next.</div>
+<div class="rule"><b>4. Build small, then grow.</b> Get one feature working end to end before adding the next.</div>
+
+<div class="page-break"></div>
+
+<h2>Week by week</h2>
+<table>
+  <tr>
+    <th class="tick">&#10003;</th>
+    <th class="wk">Wk</th>
+    <th class="dates">Dates</th>
+    <th>AI project (6 h)</th>
+    <th>Fundamentals (6 h)</th>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">1</td><td class="dates">Oct 20&ndash;26</td>
+    <td><code>parse_amount</code> and <code>analyze.py</code> (done). Term map (written, learn it). Finish Level 5.</td>
+    <td>Fundamentals: OOP, SQL exercises, ER and class diagrams. Cab booking design case on Saturday.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">2</td><td class="dates">Oct 27&ndash;Nov 2</td>
+    <td>Make a virtual environment. Build a FastAPI hello endpoint, then a POST endpoint with a Pydantic <code>Transaction</code>. Open <code>/docs</code>.
+      Then a CSV upload endpoint that returns your <code>analyze.py</code> results as JSON. Push the repo to GitHub.</td>
+    <td><b>DSA:</b> re-solve 5 easy C# problems in Python (arrays, strings, hash maps).<br>
+      <b>Design:</b> the library case as a console app, typed by you. Lists in the service first, then move them into a repository.<br>
+      <b>SQL:</b> ladder Levels 0 and 1 (SQLBolt 1&ndash;6, SQL 50 "Select").</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">3</td><td class="dates">Nov 3&ndash;9</td>
+    <td>First Claude call: ask for structured JSON that categorises each transaction. Keep the API key out of Git. Write your first <code>pytest</code> tests.</td>
+    <td><b>DSA:</b> 5 more easy problems, then two pointers.<br>
+      <b>Design:</b> the loan tracker case end to end, plus one change request.<br>
+      <b>SQL:</b> Level 2, aggregation.</td>
+  </tr>
+  <tr class="checkpoint">
+    <td class="tick">&#9744;</td><td class="wk">4</td><td class="dates">Nov 10&ndash;16</td>
+    <td>Hand-label 30 to 50 transactions and measure accuracy. Add retries and async parallel calls.
+      <span class="pill">Checkpoint 1</span> The service runs locally and you have an accuracy number.</td>
+    <td><b>DSA:</b> sliding window and stack.<br>
+      <b>Design:</b> parking lot (a classic LLD case). SOLID with your own examples.<br>
+      <b>SQL:</b> Level 3, joins.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">5</td><td class="dates">Nov 17&ndash;23</td>
+    <td>Learn embeddings and chunking. Load public loan-policy documents into Chroma or pgvector.</td>
+    <td><b>DSA:</b> linked lists and binary search.<br>
+      <b>Design:</b> HLD building blocks, one page each: load balancer, cache, queue, replicas, sharding.<br>
+      <b>SQL:</b> Level 4, subqueries and CTEs.</td>
+  </tr>
+  <tr class="checkpoint">
+    <td class="tick">&#9744;</td><td class="wk">6</td><td class="dates">Nov 24&ndash;30</td>
+    <td>Build RAG by hand with the plain SDK: retrieve, then answer with citations. Test whether the right chunk comes back.
+      <span class="pill">Checkpoint 2</span></td>
+    <td><b>DSA:</b> trees (traversals, BFS and DFS).<br>
+      <b>Design:</b> HLD 1, a URL shortener, using the 6 steps.<br>
+      <b>SQL:</b> Level 5, window functions. Take the HackerRank SQL Intermediate test.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">7</td><td class="dates">Dec 1&ndash;7</td>
+    <td>Rebuild the same RAG in LangChain, and write down what it hides. Add tool calling so the model can call your analysis functions.</td>
+    <td><b>DSA:</b> heaps and top K.<br>
+      <b>Design:</b> HLD 2, a notification system and a rate limiter.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">8</td><td class="dates">Dec 8&ndash;14</td>
+    <td>Build an agent loop that answers "Is this applicant affordable?" using the statement tools and the policy documents.</td>
+    <td><b>DSA:</b> graphs, BFS and DFS.<br>
+      <b>Design:</b> HLD 3, a news feed. Read Chip Huyen, chapter by chapter.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">9</td><td class="dates">Dec 15&ndash;21</td>
+    <td>Learn MCP and build one small server that exposes the analysis. Put the service in Docker.</td>
+    <td><b>DSA:</b> dynamic programming basics (climbing stairs, house robber, coin change).<br>
+      <b>Design:</b> LLM system design 1, a RAG pipeline.</td>
+  </tr>
+  <tr class="checkpoint">
+    <td class="tick">&#9744;</td><td class="wk">10</td><td class="dates">Dec 22&ndash;28</td>
+    <td>Deploy to Azure Container Apps with secrets, logging and a health check.
+      <span class="pill">Checkpoint 3</span> A public URL works.</td>
+    <td><b>DSA:</b> more DP, and intervals.<br>
+      <b>Design:</b> LLM system design 2, an LLM gateway (rate limits, retries, caching, cost).</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">11</td><td class="dates">Dec 29&ndash;Jan 4</td>
+    <td>Write the README: architecture diagram, eval numbers, trade-offs. Rewrite your resume around the project and the work AI feature.</td>
+    <td><b>DSA:</b> mixed review, two timed sets.<br>
+      <b>Design:</b> draw your own project's architecture and explain every trade-off out loud.</td>
+  </tr>
+  <tr>
+    <td class="tick">&#9744;</td><td class="wk">12</td><td class="dates">Jan 5&ndash;11</td>
+    <td>Mock interviews: Python coding, SQL, "design a RAG pipeline", and explain every term on the term map.</td>
+    <td><b>DSA:</b> timed mocks.<br>
+      <b>Design:</b> three mock rounds: one LLD, one HLD, one RAG. <b>Start applying about Jan 12.</b></td>
+  </tr>
+</table>
+
+<h2>Side track: the AI feature at work</h2>
+<ul>
+  <li><b>Weeks 2 and 3:</b> read the AI assessment code. Understand how it loads the data, builds the prompt and calls Claude.</li>
+  <li><b>Week 4 onwards:</b> own one small improvement. It's the strongest line on your resume.</li>
+  <li>Use the company API key only for company work. The personal project uses your own key.</li>
+</ul>
+
+<h2>If you fall behind</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Never cut</h3>
+    <ul>
+      <li>FastAPI with Pydantic</li>
+      <li>The Claude accuracy test (evals)</li>
+      <li>RAG built by hand</li>
+      <li>The Azure deploy</li>
+      <li>At least 2 hours of DSA a week</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Cut first</h3>
+    <ul>
+      <li>The LangChain rebuild shrinks to one day.</li>
+      <li>MCP becomes reading only.</li>
+      <li>HLD 3 (news feed) becomes reading only.</li>
+    </ul>
+    <p class="small">Checkpoints in weeks 4, 6 and 10 tell you early if you're behind.</p>
+  </div>
+</div>
+
+</body>
+</html>
